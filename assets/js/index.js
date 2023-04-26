@@ -145,7 +145,7 @@ document.addEventListener("click", (e) => {
   }
 
   if (targetEl.classList.contains("remove-todo")) {
-    confirm("Deseja remover a ocorrência?") && parentEl.remove();
+    confirm(`Deseja remover a ocorrência de nome: ${todoTitle}?`) && parentEl.remove();
     
 
     // Utilizando dados da localStorage
